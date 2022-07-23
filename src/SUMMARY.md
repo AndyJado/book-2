@@ -1,6 +1,6 @@
 # Summary
 
-[来啦?](./README.md)
+[咳咳](./README.md)
 
-# [嘛呢]
-- [Chapter 1](./chapter_1.md)
+# 我说两句?
+- [对于程序运行的一些感性认识](./hardware_zh.md)
