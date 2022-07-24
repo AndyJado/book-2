@@ -1,7 +1,6 @@
 [book]
 authors = ["AndyJado"]
-language = "en"
-multilingual = false
+language = "zh"
 src = "src"
 title = "不是我干的"
 
