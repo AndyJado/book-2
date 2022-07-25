@@ -1,15 +1,25 @@
 
-# 数字文档2022
+# 介绍
 
-## \\[好读, 好查找, 好写, 好分享. \\]
+## 格式交给[Markdown](https://rust-lang.github.io/mdBook/format/markdown.html), 形式的交给[mdbook](https://rust-lang.github.io/mdBook/index.html) , 你专注于内容. 
 
-# [mdbook](https://rust-lang.github.io/mdBook/index.html)
 
-**格式交给[Markdown](https://rust-lang.github.io/mdBook/format/markdown.html), 剩下的交给[Rust](https://doc.rust-lang.org/), 你只专注于内容.**
-
-- 每个一级标题都是一个链接, 高细粒度分享.
-
--  mathjax公式支持 e.g. \\( \mu = \frac{1}{N} \sum_{i=0} x_i \\)
-
-- 一键部署到云端.
 ---
+
+# 这是一个链接
+
+[这也是一个链接](https://andyjado.github.io/book-2/index.html#这是一个链接)
+
+# 这是一块黑板
+
+```markdown
+# 这是一个链接
+
+[这也是一个链接](https://andyjado.github.io/book-2/index.html#这是一个链接)
+
+```
+
+黑板里是上一小节的源码
+
+
+# ~~别人早都这么玩了, 可能就你还不知道了~~

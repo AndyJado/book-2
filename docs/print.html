@@ -145,22 +145,19 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="数字文档2022"><a class="header" href="#数字文档2022">数字文档2022</a></h1>
-<h2 id="好读-好查找-好写-好分享-"><a class="header" href="#好读-好查找-好写-好分享-">\[好读, 好查找, 好写, 好分享. \]</a></h2>
-<h1 id="mdbook"><a class="header" href="#mdbook"><a href="https://rust-lang.github.io/mdBook/index.html">mdbook</a></a></h1>
-<p><strong>格式交给<a href="https://rust-lang.github.io/mdBook/format/markdown.html">Markdown</a>, 剩下的交给<a href="https://doc.rust-lang.org/">Rust</a>, 你只专注于内容.</strong></p>
-<ul>
-<li>
-<p>每个一级标题都是一个链接, 高细粒度分享.</p>
-</li>
-<li>
-<p>mathjax公式支持 e.g. \( \mu = \frac{1}{N} \sum_{i=0} x_i \)</p>
-</li>
-<li>
-<p>一键部署到云端.</p>
-</li>
-</ul>
+                        <h1 id="介绍"><a class="header" href="#介绍">介绍</a></h1>
+<h2 id="格式交给markdown-形式的交给mdbook--你专注于内容"><a class="header" href="#格式交给markdown-形式的交给mdbook--你专注于内容">格式交给<a href="https://rust-lang.github.io/mdBook/format/markdown.html">Markdown</a>, 形式的交给<a href="https://rust-lang.github.io/mdBook/index.html">mdbook</a> , 你专注于内容.</a></h2>
 <hr />
+<h1 id="这是一个链接"><a class="header" href="#这是一个链接">这是一个链接</a></h1>
+<p><a href="">这也是一个链接</a></p>
+<h1 id="这是一块黑板"><a class="header" href="#这是一块黑板">这是一块黑板</a></h1>
+<pre><code class="language-markdown"># 这是一个链接
+
+[这也是一个链接]()
+
+</code></pre>
+<p>黑板里是上一小节的源码</p>
+<h1 id="别人早都这么玩了-可能就你还不知道了"><a class="header" href="#别人早都这么玩了-可能就你还不知道了"><del>别人早都这么玩了, 可能就你还不知道了</del></a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="代码在计算机中是怎样运动的"><a class="header" href="#代码在计算机中是怎样运动的">代码在计算机中是怎样运动的🏊‍♀️</a></h1>
 <p>也许你用<a href="http://www.yinwang.org/blog-cn/2017/07/06/master-pl">几周时间掌握了所有的程序语言</a>, 也许你从网上的只言片语拼凑出了一段能跑起来的程序, 但是,</p>
 <p>这段代码在跑的过程中是如何运动的. 它从内存出发直奔CPU并将正确结果精准刻录到硬盘了吗? 还是在不知道什么地方里游荡并在途中造就了多位野指针?</p>
@@ -307,6 +304,22 @@ func 吃饺子() {
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

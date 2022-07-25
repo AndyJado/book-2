@@ -2,7 +2,7 @@
 authors = ["AndyJado"]
 language = "zh"
 src = "src"
-title = "不是我干的"
+title = "数字文档2022"
 
 [rust]
 edition = "2021"
